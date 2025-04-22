@@ -29,7 +29,7 @@ BenD can be installed from GitHub.
 To install the latest version from PyPI:
 
 ```bash
-python -m pip install https://github.com/venaturum/BenD
+python -m pip install git+https://github.com/venaturum/BenD.git
 ```
 
 ## Command line usage
