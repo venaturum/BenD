@@ -89,8 +89,8 @@ with gp.Env() as env:
     new_config.sub_return = bd.config.SubproblemReturn.duals
     new_config.framework = bd.config.Framework.callback
     new_config.timelimit = 10
-    Result = bd.solve(spec, new_config, env)
-    Result.write("solution.sol")
+    result = bd.solve(spec, new_config, env)
+    result.write("solution.sol")
 ```
 
 Example with multiple subproblems:
