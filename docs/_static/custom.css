@@ -1,0 +1,11 @@
+html[data-theme="dark"]{
+    --pst-color-primary: #57dbce;
+}
+
+html[data-theme="light"]{
+    --pst-color-primary: #57dbce;
+}
+
+img {
+    background: none !important; /* Ensures no background is applied */
+}
