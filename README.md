@@ -120,7 +120,8 @@ with gp.Env() as env:
     new_config.sub_return = bd.config.SubproblemReturn.subgradient
     new_config.framework = bd.config.Framework.iterative
     new_config.timelimit = 10
-    Result = bd.solve(spec, new_config, env)
+    result = bd.solve(spec, new_config, env)
+    result.write("solution.sol")
 ```
 
 ## Config files
